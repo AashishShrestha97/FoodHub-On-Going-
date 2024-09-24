@@ -1,0 +1,31 @@
+.mainbox {
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(229, 159, 28);
+    color: rgb(250, 250, 250);
+    padding: 50px;
+    position: relative;
+    top: 35vw;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#infohead {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#infosub {
+    font-size: 20px;
+    margin-right: 30vw;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#image img {
+    width: 20vw;
+    height: 15vw;
+    position: relative;
+    float: right;
+    bottom: 16vw;
+}

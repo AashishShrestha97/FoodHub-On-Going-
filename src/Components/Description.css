@@ -1,0 +1,28 @@
+#description #heading {
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    left: 170px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+#description #info {
+    font-size: 20px;
+    position: absolute;
+    top: 25vw;
+    right: 40vw;
+    margin-left: 173px;
+    margin-right: 150px;
+}
+
+#line {
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 28vw;
+    width: 50vw;
+    left: 172px;
+}

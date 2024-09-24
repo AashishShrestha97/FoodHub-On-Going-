@@ -1,0 +1,10 @@
+#image1 #image-swap {
+    top: 60px;
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+    position: relative;
+    float: right;
+    right: 100px;
+    border-radius: 50%;
+}
