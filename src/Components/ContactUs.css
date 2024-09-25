@@ -1,0 +1,146 @@
+/* Classy, elegant styles for the Contact Us section */
+
+/* Font settings: Use Google Fonts or a classy custom font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+.Mainbox {
+    background-color: #111;
+    background-image: linear-gradient(135deg, orange, rgba(250, 239, 226, 0.553));
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 60vh;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Ensures container spacing and grid structure */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+/* Reach Us Section */
+#ReachUsSub {
+    padding: 0;
+    list-style: none;
+}
+
+#ReachUsSub li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+#ReachUsSub li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+#ReachUsSub li:hover img {
+    filter: none;
+}
+
+#ReachUsSub li:hover {
+    color: #f8b460;
+}
+
+/* Map Section */
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-embed iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.map-embed iframe:hover {
+    transform: scale(1.02);
+}
+
+/* Social Media Section */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.2);
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 992px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        gap: 20px;
+    }
+
+    #ReachUsSub li {
+        font-size: 16px;
+    }
+
+    .social-icons a img {
+        width: 40px;
+        height: 40px;
+    }
+}

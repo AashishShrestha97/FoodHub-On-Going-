@@ -1,7 +1,7 @@
 #PopularItems {
     text-align: center;
     margin: 60px 0;
-    background: linear-gradient(to right, #ffefba, #ffffff);
+    background: linear-gradient(to right, #d46f03, #ffffff);
     padding: 20px 0;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
 
 #PopularItems p {
     font-size: 36px;
-    color: orange;
+    color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
